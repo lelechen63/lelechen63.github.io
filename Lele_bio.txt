@@ -1,0 +1,2 @@
+Lele is a Ph.D candidate advised by Prof. Chenliang Xu in URCS. He received his M.S. degree in Computer Science from University of Rochester in 2018 and B.S. degree in Computer Science from Donghua University in 2016. His research interests are multimodal modeling and video object detection/segmentation.
+

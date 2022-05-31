@@ -1,0 +1,794 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	
+  <head>
+  <meta name=viewport content=“width=800”>
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+    color: #1772d0;
+    text-decoration:none;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    figure figcaption {
+    color: 	#A9A9A9;
+    text-align: center;
+	}
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    }
+    .redText
+    {
+    color: red;
+    }
+
+    .two
+    {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .three
+    {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    }
+    .four
+    {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="seal_icon.png">
+  <title>Lele Chen</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+  <table width="70%" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td width="67%" valign="middle">
+        <p align="center">
+          <name>Lele Chen   &nbsp; &nbsp;   <img src="name.png" width="120" height="50"> </name>
+        </p>
+        <p>I am a Ph.D candidate advised by <a href="https://www.cs.rochester.edu/~cxu22/">Prof. Chenliang Xu</a> at <a href="https://www.cs.rochester.edu/">University of Rochester</a>, where I work on computer vision and machine learning.  
+	</p>
+        <p>
+	I received my M.S. degree from <a href="https://www.cs.rochester.edu/">University of Rochester</a> in 2018. I've spent time at 
+		<a href="https://tech.fb.com/ar-vr/">Facebook Reality Labs</a>, <a href="https://www.innopeaktech.com">Innopeak Tech ARVR Lab</a>, 
+		<a href="https://www.visualdx.com/">visualDx Medical Image Lab</a> and <a href="http://corporate.jd.com/">JD.com JDX Autonomous Driving Lab</a> as R&D intern. 
+		I have spent almost six wonderful years working with Professor Chenliang Xu at the University of Rochester. Besides that, 
+		I was fortunate to work with Professor Zhiyao Duan, Professor Fernando De la Torre, Professor. Jiebo Luo, Dr. Chen Cao, Dr. Hongda Mao, 
+		Dr. Yi Xu, Dr. Xuxue Quan, and Dr. Zhong Li. 
+        </p>
+	<p>
+	I'm currently a staff research scientist at Innopeak Technology focusing on developing cutting-the-edge AR/VR solutions by marrying computer graphics 
+	with computer vision.  My research mainly lies in audio-visual learning, generative adversarial networks, 2D/3D human body/face modeling and generation, 
+	egocentric video understanding.
+        <p align=center>
+          <a href="email.txt">Email</a> &nbsp/&nbsp
+          <a href="Resume.pdf">CV</a> &nbsp/&nbsp
+          <a href="Lele_bio.txt">Biography</a> &nbsp/&nbsp
+          <a href="https://scholar.google.com/citations?user=H71yt54AAAAJ&hl=zh-CN">Google Scholar</a> &nbsp/&nbsp
+          <a href="https://www.linkedin.com/in/lele-chen-a14353136/"> LinkedIn </a>
+        </p>
+        </td>
+        <td width="33%">
+        	<figure>
+			  <img src="Lele.jpg" width="380" height="380">
+			  <figcaption> @Vienna, May. 2015  </figcaption>
+			</figure>
+        
+        </td>
+      </tr>
+      </table>
+
+
+<!-- ##################################News######################## -->
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <heading>News</heading>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellpadding="20">
+      <tr>
+        <td width="100%" valign="center">
+	<p style="color:blue;">	
+	I am actively looking for full-time interns with computer vision/computer graphics backgrounds to join my team. If you would like to work with me, feel free to drop me an email with your resume.
+	</p>	
+	<p>	
+	The intern work in FRL is accpted to CVPR 2021 and SIGGRAPH 2021!	
+	</p>
+		
+	<p>	
+	Co-organized the WACV 2021 Tutorial on <a href="https://echo0409.github.io/Audio-Visual-Scene-Understanding/">Audio-visual Scene Understanding</a>. We will co-organize a CVPR 2021 Tutorial on <a href="https://audio-visual-scene-understanding.github.io/">Audio-visual Scene Understanding </a>!  Stay tuned!
+	</p>
+		
+	<p>	
+         One co-authored paper about virtual fasion is accepted by IEEE Transactions on Image Processing (TIP), and one co-authored paper about continuous vision is accecpted by <a href="https://pact20.cc.gatech.edu/"> PACT2020 </a>. Congratulations to all authors.
+	</p>
+
+		
+<!-- 	<p>	
+         Start my 6-month journey at <a href="https://research.fb.com/category/augmented-reality-virtual-reality/">Facebook Reality Labs</a> advised by <a href="https://sites.google.com/site/zjucaochen/home">Dr. Chen Cao</a>. Day 1 at FRL!
+	<br>
+	</p> -->
+		
+	<p>	
+         Two papers are accepcted to ECCV 2020 including one first-author paper!
+	<br>
+	</p>
+	
+<!-- 	<p>	
+          Our paper <a href="https://arxiv.org/abs/2005.03201">What comprises a good talking-head video generation?: A Survey and Benchmark
+</a>  was accepcted in CVPR 2020 <a href="http://sightsound.org/">Sight and Sound Workshop</a>!
+	<br>
+	</p> -->
+		
+	<p>	
+          I was awarded the <a href="https://www.cs.rochester.edu/news-events/news/2020/2020-04-27-phd-student-lele-chen-awarded-the-barnard-fellowship.html">Barnard Fellowship</a>!
+	<br>
+	</p>
+		
+<!-- 	<p>
+          <a href="https://vrcai.siggraph.org/">
+          <papertitle>One paper is accepted at VRCAI 2019! It also wins <span class="redText">(best paper award) </span> of VRCAI 2019. An elegant method to do free-view video generation based on single RGB input.</papertitle></a>
+          <br>
+        </p>
+		
+	<p>
+          <a href="https://wacv20.wacv.net">
+          <papertitle>One paper is accepted at WACV 2020! An interesting work to achieve fashion garment design manipulation by self-supervision!</papertitle></a>
+          <br>
+        </p> -->
+<!-- 		
+	<p>
+          <a href="https://www.cs.rochester.edu/news-events/news/2019_06_24_chenliang_ieee.html">
+          <papertitle>News from URCS about our work.</papertitle></a>
+          <br>
+        </p>
+	<p>
+          <a href="https://www.computer.org/publications/tech-news/events/ieee-conference-on-computer-vision-and-pattern-recognition-2019-poster-sessions">
+          <papertitle>Our work was featured in the IEEE Computer Society news while presenting a poster at the CVPR2019.</papertitle></a>
+          <br>
+        </p> -->
+		
+<!-- 	<p>
+          <a href="https://youtu.be/eH7h_bDRX2Q">
+          <papertitle>The demo video for ATVGnet is available now.</papertitle></a>
+          <br>
+        </p> -->
+		
+<!-- 	<p>
+          <a href="https://github.com/lelechen63/ATVGnet">
+          <papertitle>One short paper was accepted in CVPR 2019 workshop (Sound and Sight).</papertitle></a>
+          <br>
+        </p> -->
+
+<!--         <p>
+          <a href="https://github.com/lelechen63/ATVGnet">
+          <papertitle>Code for CVPR2019 paper has been released !!! Feel free to try it.</papertitle></a>
+          <br>
+        </p> -->
+        </td>
+      </tr>
+      </table>
+
+
+<!-- ##################################research######################## -->
+
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <heading>Research</heading>
+        <td width="70%" valign="middle">
+         
+        </td>
+      </tr>
+      </table>
+
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+<!-- <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="1000" color=#3390FF SIZE=6> -->
+	  
+	  
+ 
+
+ 
+	  
+<!-- #######################Project -5####################################### -->
+
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="two" id = 'In submission 2021'><img src='siggraph21.gif' style="width:520px;height:240px;"></div>
+        <img src='siggraph21.gif' style="width:520px;height:240px;">
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('CVPR 2021').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('CVPR 2021').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="siggraph21.pdf">
+      <p>
+        <papertitle> Real-time 3D Neural Facial Animation from Binocular Video  </papertitle>   <br>     </a><br>
+        <a href="https://sites.google.com/site/zjucaochen/home">Chen Cao </a>, Vasu Agrawal , <a href="https://www.cs.cmu.edu/~ftorre/"> fernando de la torre  </a>,  <strong>Lele Chen </strong>, <a href="http://jsaragih.org/Home_Page.html">Jason Saragih </a>, <a href="http://www.cs.cmu.edu/~tsimon/">Tomas Simon</a> , <a href="http://www.cs.cmu.edu/~yaser/">Yaser Sheikh </a>  <br>
+        <em>  <strong> ACM Transactions on Graphics (SIGGRAPH)</strong>, 2021</em> <br>  
+          <a href="siggraph21.pdf">paper</a>  / <a href="siggraph21.bib">bibtex</a> 
+	       / <a href="https://www.youtube.com/watch?v=QQDpw4RLlQI"> video </a>
+        <p> We present a method for performing real-time facial animation of a 3D avatar from binocular video. </p>
+      </td>
+    </tr>
+	
+	
+<!-- #######################Project -7####################################### -->
+
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="two" id = 'In submission 2021'><img src='cvpr2021.gif' style="width:520px;height:240px;"></div>
+        <img src='cvpr2021.gif' style="width:520px;height:240px;">
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('CVPR 2021').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('CVPR 2021').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="cvpr2021-arxiv.pdf">
+      <p>
+        <papertitle> High-fidelity Face Tracking for AR/VR  via Deep Lighting Adaptation</papertitle>   <br>     </a><br>
+         <strong>Lele Chen </strong>, <a href="https://sites.google.com/site/zjucaochen/home">Chen Cao </a>, <a href="https://www.cs.cmu.edu/~ftorre/"> fernando de la torre </a>, <a href="http://jsaragih.org/Home_Page.html">Jason Saragih </a>, <a href="https://www.cs.rochester.edu/~cxu22/">Chenliang Xu </a>, <a href="http://www.cs.cmu.edu/~yaser/">Yaser Sheikh </a>  <br>
+        <em>  <strong>CVPR </strong>, 2021</em> <br>  
+          <a href="cvpr2021-arxiv.pdf">paper</a> / <a href="Universal_Lighting_Model_sup.pdf">Supplymentary PDF</a>  / <a href="cvpr2021.bib">bibtex</a> 
+	       / <a href="https://www.youtube.com/watch?v=dtz1LgZR8cc"> video </a>
+		/ <a href="./cvpr21/index.html"> project page </a>
+        <p> 3D video avatars allows empowering virtual communications by providing compression, privacy, entertainment and a sense of presence in AR/VR. Best 3D photo-realistic AR/VR avatars driven by video, that can minimize uncanny effects, rely on person-specific models. However, existing person-specific photo-realistic 3D models are not robust to lighting and typically results in missing subtle facial behaviour, and artifacts in the avatar. This is a major drawback for the scalability of these models in communication systems (e.g., Messenger, Skype, FaceTime) and AR/VR. This paper addresses previous limitations by learning a deep learning lighting model, that in combination with a high-quality 3D face tracking algorithm provides a method for subtle and robust facial motion transfer from a regular video to a 3D photo-realistic avatar. Extensive experimental validation and comparisons to other state-of-the-art methods demonstrates the effectiveness of the proposed framework in real-world scenarios with variability in pose, expression and illumination. </p>
+      </td>
+    </tr>
+	  
+	  
+<!-- #######################Project -6####################################### -->
+
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="two" id = 'PACT 2020'><img src='pact2020.png' style="width:540px;height:180px;"></div>
+        <img src='pact2020.png' style="width:540px;height:180px;">
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('ECCV 2020').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('ECCV 2020').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="pact2020.pdf">
+      <p>
+        <papertitle> Low-Latency Proactive Continuous Vision </papertitle>   <br>     </a><br>
+          <a href="https://www.cs.rochester.edu/u/ygan10/">Yiming Gan </a>, Yuxian Qiu , <strong>Lele Chen </strong>, <a href="http://www.cs.sjtu.edu.cn/~leng-jw/">Jingwen Leng </a>, <a href="http://www.yuhaozhu.com/">Yuhao Zhu </a> <br>
+        <em>  <strong> <span class="redText">(best paper nominee) </span>  PACT </strong></em>, 2020 <br>  
+         <a href="pact2020.pdf">paper</a> / <a href="pact2020.bib">bibtex</a> 
+        <p> Continuous vision is the cornerstone of a diverse range of intelligent applications found on emerging computing platforms such as autonomous machines and Augmented Reality glasses. A critical issue in today's continuous vision systems is their long end-to-end frame latency, which significantly impacts the system agility and user experience. We find that the long latency is fundamentally caused by the serialized execution model of today's continuous vision pipeline, whose key stages, including sensing, imaging, and vision computations, execute sequentially, leading to long frame latency.</p>
+      </td>
+    </tr>
+
+	  
+	  
+<!-- #######################Project -5####################################### -->
+
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="two" id = 'ECCV 2020_1'><img src='eccv2020.gif' style="width:360px;height:180px;"></div>
+        <img src='eccv2020.gif' style="width:360px;height:180px;">
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('ECCV 2020').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('ECCV 2020').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="eccv2020-arxiv.pdf">
+      <p>
+        <papertitle> Talking-head Generation with Rhythmic Head Motion</papertitle>   <br>     </a><br>
+         <strong>Lele Chen </strong>, Guogeng Cui , <a href="https://www.cct.lsu.edu/~cliu/">Celong Liu </a>, <a href="https://sites.google.com/site/lizhong19900216">Zhong Li </a>, Ziyi Kou , Yi Xu, <a href="https://www.cs.rochester.edu/~cxu22/">Chenliang Xu </a> <br>
+        <em>  <strong>ECCV</strong></em>, 2020 <br>  
+         <a href="eccv2020-arxiv.pdf">paper</a> / <a href="eccv2020_1.bib">bibtex</a> 
+	      / <a href="https://github.com/lelechen63/Talking-head-Generation-with-Rhythmic-Head-Motion"> code </a> / <a href="https://www.youtube.com/watch?v=kToSgSFoRz8"> video </a> 
+        <p> Through modeling the head motion and facial expressions explicitly, manipulating 3D animation carefully, and embedding reference images dynamically, our approach achieves controllable, photo-realistic, and temporally coherent talking-head videos with natural head movements.</p>
+      </td>
+    </tr>
+	  
+<!-- #######################Project -4####################################### -->
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="one">
+        <div class="two" id = 'cvpr20_1'><img src='cvpr20_1.png' style="width:360px;height:180px;"></div>
+        <img src='cvpr20_1.png' style="width:360px;height:180px;">
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('cvpr20_1').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('cvpr20_1').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="cvpr20_1.pdf">
+        <papertitle>Example-Guided Scene Image Synthesis using Masked Spatial-Channel Attention and Patch-Based Self-Supervision</papertitle></a><br>
+        <a href="https://www.cs.rochester.edu/u/hzheng15/haitian_homepage/index.html">Haitian Zheng</a>, <a href='http://liaohaofu.com/'>Haofu Liao</a>, <strong>Lele Chen</strong>, Wei Xiong, Tianlang Chen, <a href="https://www.cs.rochester.edu/u/jluo/">Jiebo Luo </a> <br>
+        <em><strong>ECCV</strong></em>, 2020 <br>  
+        <a href="cvpr20_1.pdf">paper</a>
+<!--         / -->
+<!--         <a href="https://youtu.be/eH7h_bDRX2Q">video </a> -->
+        /
+        <a href="cvpr20_1.bib">bibtex</a> /
+        <a href="https://github.com/htzheng/ECCV2020-Example-Guided-Image-Synthesis-across-Arbitrary-Scenes">code</a>
+        <p> We propose to address a challenging example-guided scene image synthesis task. To propagate information between structurally uncorrelated and semantically unaligned scenes, we propose an MSCA module that leverages decoupled cross-attention for adaptive correspondence modeling. With MSCA, we propose a unified model for joint globallocal alignment and image synthesis. We further propose a patch-based self-supervision scheme that enables training. Experiments on the COCO-stuff dataset show significant improvements over the existing methods. Furthermore, our approach provides interpretability and can be extended to other content manipulation tasks. </p>
+      </td>
+    </tr>
+	  
+<!-- #######################Project -3####################################### -->
+
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="one">
+        <div class="two" id = 'tip2019'><img src='tip2019_teaser.gif' style="width:360px;height:180px;"></div>
+        <img src='tip2019_teaser.gif' style="width:360px;height:180px;">
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('tip2019').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('tip2019').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="tip2019.pdf">
+        <papertitle>Unsupervised Pose Flow Learning for Pose Guided Synthesis</papertitle></a><br>
+        <a href="https://www.cs.rochester.edu/u/hzheng15/haitian_homepage/index.html">Haitian Zheng</a>, <strong>Lele Chen</strong>, <a href="https://www.cs.rochester.edu/~cxu22/">Chenliang Xu </a>, <a href="https://www.cs.rochester.edu/u/jluo/">Jiebo Luo </a> <br>
+        <em><strong> IEEE Transactions on Image Processing (TIP)</strong></em>, 2020 <br>  
+        <a href="tip2019.pdf">paper</a>
+<!--         / -->
+<!--         <a href="https://youtu.be/eH7h_bDRX2Q">video </a> -->
+        /
+        <a href="tip2019.bib">bibtex</a>
+<!--         / code (comming soon) -->
+        / <a href="https://github.com/htzheng/TIP2020-Pose-Flow-Learning-for-Pose-Guided-Synthesis">code</a>
+        <p></p>
+        <p>  Pose guided synthesis aims to generate a new image in an arbitrary target pose while preserving the appearance details from the source image. Existing approaches rely on either hard-coded spatial transformations or 3D body modeling. They often overlook complex non-rigid pose deformation or unmatched occluded regions, thus fail to effectively preserve appearance information. In this paper, we propose an unsupervised pose flow learning scheme that learns to transfer the appearance details from the source image. Based on such learned pose flow, we proposed GarmentNet and SynthesisNet, both of which use multi-scale feature-domain alignment for coarse-to-fine synthesis. Experiments on the DeepFashion, MVC dataset and additional real-world datasets demonstrate that our approach compares favorably with the state-of-the-art methods and generalizes to unseen poses and clothing styles.</p>
+      </td>
+    </tr>
+	  
+<!-- #######################Project -2####################################### -->
+
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="two" id = 'VRCAI 2019'><img src='vrcai2019.gif' style="width:220px;height:220px;"></div>
+        <img src='vrcai2019.gif' style="width:220px;height:220px;">
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('VRCAI 2019').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('VRCAI 2019').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="vrcai2019.pdf">
+      <p>
+        <papertitle>3D Human Avatar Digitization from a Single Image</papertitle>   <br>    <!--  </a><br> -->
+        <a href="https://sites.google.com/site/lizhong19900216">Zhong Li *</a>,  <strong>Lele Chen *</strong>, <a href="https://www.cct.lsu.edu/~cliu/">Celong Liu </a>,  Yu Gao, Yuanzhou Ha , <a href="https://www.cs.rochester.edu/~cxu22/">Chenliang Xu </a> , Shuxue Quan, Yi Xu (* equal contribution) <br>
+        <em><strong> <span class="redText">(best paper award) </span> VRCAI</strong></em>, 2019, Computer & Graphics (<strong>C & G</strong>), 2021 <br>
+         <a href="vrcai2019.pdf">paper</a> / <a href="vrcai19.bib">bibtex</a> 
+        <p> In this paper, we propose a pipeline that reconstructs 3D human shape avatar at a glance. Our approach simultaneously reconstructs the three-dimensional human geometry and whole body texture map with only a single RGB image as input.</p>
+      </td>
+    </tr>
+
+	  
+<!-- #######################Project -1####################################### -->
+
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="two" id = 'wacv2020'><img src='wacv2020_teaser.png' style="width:360px;height:180px;"></div>
+        <img src='wacv2020_teaser.png' style="width:360px;height:180px;">
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('wacv2020').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('wacv2020').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+<!--         <p><a href="cvpr2019.pdf"> -->
+      <p>
+        <papertitle>TailorGAN: Making User-Defined Fashion Designs</papertitle>   <br>    <!--  </a><br> -->
+        <strong>Lele Chen</strong>, Guo Li, Justin Tian, Cheng-Haw Wu, Erh-Kan King , Kuan-Ting Chen ,Shao-Hang Hsieh  , <a href="https://www.cs.rochester.edu/~cxu22/">Chenliang Xu </a> <br>
+        <em><strong>WACV</strong></em>, 2020 <br>  
+         <a href="20wacv.pdf">paper</a>  /  <a href="https://github.com/gli-27/TailorGAN">code</a> 
+
+        <p> We consider atask:  given a reference garment image A and another im-age B with target attribute (collar/sleeve), generate photo-realistic image which combines the texture from reference Aand the new attribute from reference B. </p>
+      </td>
+    </tr>
+	  
+<!-- #######################Project 0####################################### -->
+
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="one">
+        <div class="two" id = 'cvpr2019'><img src='cvpr2019.gif' width="180" height="180"></div>
+        <img src='cvpr2019.gif' width="180" height="180">
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('cvpr2019').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('cvpr2019').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="cvpr2019.pdf">
+        <papertitle>Hierarchical Cross-modal Talking Face Generation with Dynamic Pixel-wise Loss</papertitle></a><br>
+        <strong>Lele Chen</strong> , <a href="https://www.urmc.rochester.edu/people/30363779-ross-k-maddox">Ross K. Maddox </a>, <a href="http://www2.ece.rochester.edu/~zduan/">Zhiyao Duan </a>, <a href="https://www.cs.rochester.edu/~cxu22/">Chenliang Xu </a> <br>
+        <em><strong>CVPR</strong></em>, 2019 <br>  
+        <a href="cvpr2019.pdf">paper</a>
+        /
+        <a href="https://youtu.be/eH7h_bDRX2Q">video </a>
+        /
+        <a href="cvpr2019.bib">bibtex</a>
+        /
+        <a href="https://github.com/lelechen63/ATVGnet">code</a>
+	/
+	<a href="https://www.cs.rochester.edu/~cxu22/r/talkface/">project</a>
+        <p></p>
+        <p>We devise a cascade GAN approach to generate talking face video, which is robust to different face shapes, view angles, facial characteristics, and noisy audio conditions. Instead of learning a direct mapping from audio to video frames, we propose first to transfer audio to high-level structure, i.e., the facial landmarks, and then to generate video frames conditioned on the landmarks. Compared to a direct audio-to-image approach, our cascade approach avoids fitting spurious correlations between audiovisual signals that are irrelevant to the speech content. We, humans, are sensitive to temporal discontinuities and subtle artifacts in video. To avoid those pixel jittering problems and to enforce the network to focus on audiovisual-correlated regions, we propose a novel dynamically adjustable pixel-wise loss with an attention mechanism.</p>
+      </td>
+    </tr>
+<!-- #######################Project 1####################################### -->
+
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="one">
+        <div class="two" id = 'eccv2018'><img src='eccv2018.gif'></div>
+        <img src='eccv2018.gif'>
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('eccv2018').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('eccv2018').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="1140.pdf">
+        <papertitle>Lip Movements Generation at a Glance</papertitle></a><br>
+        <strong>Lele Chen*</strong>, Zhiheng Li*, <a href="https://www.urmc.rochester.edu/people/30363779-ross-k-maddox">Ross K Maddox</a>, <a href="http://www2.ece.rochester.edu/~zduan/">Zhiyao Duan</a>, <a href="https://www.cs.rochester.edu/~cxu22/">Chenliang Xu </a> (* equal contribution) <br>
+        <em><strong>ECCV</strong></em>, 2018 <br>
+        <a href="1140.pdf">paper</a>
+        /
+        <a href="1140_poster.pdf">poster</a>
+        /
+        <a href="https://www.youtube.com/watch?v=mmI31GdGL5g">video</a>
+        /
+        <a href="LeleECCV2018.bib">bibtex</a>
+        /
+        <a href="https://shiropen.com/seamless/lip-movements-generation-at-a-glance">news</a>
+        /
+        <a href="https://github.com/lelechen63/3d_gan">code</a>
+	/
+	<a href="https://www.cs.rochester.edu/~cxu22/r/lipgen/">project</a>
+        <p></p>
+        <p>Given an arbitrary audio speech and one lip image of arbitrary target identity, generate synthesized lip movements of the target identity saying the speech. To perform well, a model needs to not only consider the retention of target identity, photo-realistic of synthesized images, consistency and smoothness of lip images in a sequence, but more importantly, learn the correlations between audio speech and lip movements.</p>
+      </td>
+    </tr>
+
+<!-- #######################Project 2####################################### -->
+
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="one">
+        <div class="two" id = 'acmmm2017'><img src='acmmm2017.gif'></div>
+        <img src='acmmm2017.gif'>
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('acmmm2017').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('acmmm2017').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="acmmm2017.pdf">
+        <papertitle>Deep cross-modal audio-visual generation</papertitle></a><br>
+        <strong>Lele Chen</strong>, Sudhanshu Srivastava, <a href="http://www2.ece.rochester.edu/~zduan/">Zhiyao Duan</a>, <a href="https://www.cs.rochester.edu/~cxu22/">Chenliang Xu </a> <br>
+        <em><strong>ACM MMW</strong></em>, 2017 <br>
+        <a href="acmmm2017.pdf">paper</a>
+        /
+        <a href="acmmm_poster.pdf">poster</a>
+        /
+        <a href="ChenSDX17.bib">bibtex</a>
+        /
+        <a href="https://github.com/lelechen63/3d_gan">code</a>
+	/
+        <a href="https://www.cs.rochester.edu/~cxu22/d/vagan/">Sub-URMP dataset</a>
+	/
+        <a href="http://www2.ece.rochester.edu/projects/air/projects/URMP.html">URMP dataset</a>
+        <p></p>
+        <p>We have developed algorithms in audio-visual source association that are able to segment corresponding audio-visual data pairs; we have created deep generative neural networks utilizing adversarial training that are able to generate one modality, i.e., audio/visual, from the other modality, i.e., visual/audio. The outputs of cross-modal generation are beneficial to many applications, such as aiding hearing- or visually-impaired and content creation in virtual reality.</p>
+      </td>
+    </tr>
+
+<!-- #######################Project 3####################################### -->
+
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="one">
+        <div class="two" id = 'spie2017'><img src='spie2017.gif'></div>
+        <img src='spie2017.gif'>
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('spie2017').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('spie2017').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="spie2017.pdf">
+        <papertitle>MRI Tumor Segmentation with Densely Connected 3D CNN</papertitle></a><br>
+        <strong>Lele Chen</strong>, Yue Wu, <a href="https://www.rochester.edu/college/gradstudies/profiles/adora-dsouza.html">Adora M. DSouza </a>, Anas Z. Abidin, <a href="https://www.urmc.rochester.edu/people/27063859-axel-w-e-wismueller">Axel Wismuller</a>, <a href="https://www.cs.rochester.edu/~cxu22/">Chenliang Xu </a> <br>
+        <em><strong>SPIE Image Processing</strong></em>, 2017 <br>
+        <a href="spie2017.pdf">paper</a>
+        /
+        <a href="spie_slides.pdf">slides</a>
+        /
+        <a href="Chenspie2017.bib">bibtex</a>
+        /
+        <a href="https://github.com/lelechen63/MRI-tumor-segmentation-Brats">code</a>
+        <p></p>
+        <p>In this paper, we introduce a new approach for brain tumor segmentation in MRI scans. DenseNet was initially introduced for the image classification problem. In this work, we explore the potential of densely connected blocks in 3D segmentation tasks. Compared with traditional networks with no skip connections, the improved information flow extracts better features and significantly help the optimization. We take multi-scale receptive fields into account to accurately classify voxels.</p>
+      </td>
+    </tr>
+
+<!-- #######################Project 4####################################### -->
+
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="one">
+        <div class="two" id = 'asa2018'><img src='asa2018.gif'></div>
+        <img src='asa2018.gif'>
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('jasa2018').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('jasa2018').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="https://asa.scitation.org/doi/abs/10.1121/1.5035944">
+        <papertitle>Toward a visual assistive listening device: Real-time synthesis of a virtual talking face from acoustic speech using deep neural networks</papertitle></a><br>
+        <strong>Lele Chen</strong>, Emre Eskimez, Zhiheng Li, <a href="http://www2.ece.rochester.edu/~zduan/">Zhiyao Duan </a>, <a href="https://www.cs.rochester.edu/~cxu22/">Chenliang Xu </a>, <a href="https://www.urmc.rochester.edu/people/30363779-ross-k-maddox">Ross K Maddox</a> <br>
+        <em><strong>The Journal of the Acoustical Society of America</strong></em>, 2018 <br>
+        <a href="https://asa.scitation.org/doi/abs/10.1121/1.5035944">paper</a>
+        /
+        <a href="CHENasa2018.bib">bibtex</a>
+        <p></p>
+        <p>Speech perception is a crucial function of the human auditory system, but speech is not only an acoustic signal-visual cues from a talker's face and articulators (lips, teeth, and tongue) carry considerable linguistic information. These cues offer substantial and important improvements to speech comprehension when the acoustic signal suffers degradations like background noise or impaired hearing. However, useful visual cues are not always available, such as when talking on the phone or listening to a podcast. We are developing a system for generating a realistic speaking face from speech audio input. The system uses novel deep neural networks trained on a large audio-visual speech corpus. It is designed to run in real time so that it can be used as an assistive listening device. Previous systems have shown improvements in speech perception only for the most degraded speech. Our design differs notably from earlier ones in that it does not use a language model-instead, it makes a direct transformation from speech audio to face video. This allows the temporal coherence between the acoustic and visual modalities to be preserved, which has been shown to be crucial to cross-modal perceptual binding.</p>
+      </td>
+    </tr>
+
+
+
+<!-- ##################################service######################## -->
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <heading>Professional Activities</heading>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellpadding="20">
+      <tr>
+        <td width="100%" valign="center">
+        <p> I am reviewer of IEEE TIP / IEEE TMM / IEEE Access / Neurocomputing / WACV 2020 / CVPR 2021 / ICCV 2021 </p>  
+       </td>
+	<tr>      
+	</table> 
+<!--       </tr>
+      </table> -->
+   
+
+
+<!-- ##################################Teaching######################## -->
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <heading>Teaching</heading>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellpadding="20">
+      <tr>
+        <td width="100%" valign="center">
+        <p>
+          <a href="https://www.cs.rochester.edu/~cxu22/t/577F19/">
+	  <papertitle>CSC 577   Advanced Topics in Computer Vision- Fall 2019</papertitle> </a>
+          <p>This course covers advanced research topics in computer vision with an emphasis on learning structured representations and embeddings. Approaches for learning from unimodal (e.g., images and videos), and multimodal data (e.g., vision and language, vision and audio) will be covered and include topics from structured predications, deep learning and others. The course will be a mix of lecture, student presentation and discussion. Prerequisites: CSC 249/449 or CSC 246/446 or CSC 298/578 (Deep Learning and Graphical Models) or permission of the instructor.</p>
+          <br>	
+	 
+          <papertitle>CIS 418  Advanced Business Modeling & Analysis- Spring 2019</papertitle>
+          <p>This course covers a range of skills and methodologies for the use of spreadsheet-based tools in
+          business modeling and quantitative analysis. We will also develop some introductory
+          techniques for quantitative analysis in R (no prior R programming experience is required).
+          Topics include: forecasting using time series regression analysis and ARIMA models; clustering
+          and classification models; linear optimization models and sensitivity analysis; and Monte Carlo
+          simulation. The models and methods covered in CIS 418 can be used across diverse
+          applications in finance, economics, marketing, logistics and operational management.  </p>
+          <br>
+          <papertitle>CIS 442  Data Management for Analytics- Winter 2018</papertitle>
+          <p>Companies and organizations in every industry rely heavily on their data, not only for the day to day tactical needs of running the business but also to generate information and analysis to support problemsolving and decision-making in a wide variety of applications. Database design and management along with systems/techniques for data retrieval, transformation and analysis have the potential to play a key role in business strategy and to create business value and competitive advantage.</p>
+          <br>
+          <a href="http://www.cs.rochester.edu/u/ezhupa/dbs/t/">
+          <papertitle>CSC 461  Database Systems- Winter 2018</papertitle></a>
+          <p>This course presents the fundamental concepts of database design and use. It provides a study of data models, data description languages, and query facilities including relational algebra and SQL, data normalization, transactions and their properties, physical data organization and indexing, security issues and object databases. It also looks at the new trends in databases, for example, Big Data, MapReduce, and NoSQL. The knowledge of the above topics will be applied in the design and implementation of a database application using a target database management system as part of a semester-long group project. </p>
+          <br>
+          <a href="http://www.simon.rochester.edu/faculty-and-research/conferences/itt-conference2/agenda/download.aspx?id=16634">
+          <papertitle>CIS 442F Big Data - Spring 2018</papertitle></a>
+          <p> This class offers an introduction to big data concepts, environments, processes, and tools from the perspective of data analysts and data scientists. The course will set the scene for the emergence of big data as an important trend in the business world and explain the technical architectures that make analyzing data at scale possible. The hands-on portion of the class will focus on the major tools of the Hadoop big data ecosystem such as HDFS, Pig, Hive, Sqoop, Hue, Zeppelin, and Spark. In addition, students will gain a broad understanding of the role of MapReduce, Tez, Impala, YARN, and other big data technologies.</p>
+          <br>
+          <papertitle>GBA 464  Programming for Analytics - Fall 2017</papertitle>
+          <p>This course provides some foundations for programming in the R environment. We cover traditional programming concepts such as operators, data structures, control structures, repetition and user-defined functions. In addition, these concepts will be taught in the context of marketing and business analytics problems related to data management and visualization. Other than high-level programming, the students will gain a foundational understanding of how data is can be stored, organized and pulled, in given data analytics context. </p>
+          <br>
+        </p>
+        </td>
+      </tr>
+      </table>
+
+
+
+<!-- ##################################other######################## -->
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <heading>Other</heading>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellpadding="20">
+      <tr>
+        <td width="100%" valign="center">
+        <p>
+          <a href="https://www.cs.rochester.edu/u/nelson/courses/csc_400/csc_400.html">
+          <papertitle>CSC400  Graduate Problem Seminar - Fall 2018</papertitle></a>
+          <p> You can find my NSF ITRG Miniproposal in <a href="NSFProposal.pdf">
+          <papertitle>here</papertitle></a> .</p>  
+          <br>
+        </p>
+        </td>
+      </tr>
+      </table>
+      <table width="25%" align="center" border="0" cellspacing="0" cellpadding="20">
+<script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=7Zzchk2flXT0aRBt5Ct1_jG-vG0KJgX8x2_aoCGIIQc"></script>      </table>
+
+      <HR>
+      <CENTER>
+      <A HREF="/users"><IMG SRC="/images/up.gif" ALT="UP" BORDER=0></A>
+      <A HREF="/"><IMG SRC="/images/home.gif" ALT="HOME" BORDER=0></A>
+      <BR>
+      <A HREF="/users">URCS People</A> |
+      <A HREF="/">URCS Home Page</A>
+      </CENTER>
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <br>
+        <p align="right">
+          <font size="2">
+           <a href="https://github.com/jonbarron/jonbarron_website"><strong>this guy's website is awesome</strong></>
+	  </font>
+        </p>
+        </td>
+      </tr>
+      </table>
+      
+    </td>
+    </tr>
+  </table>
+</body>
+</html>

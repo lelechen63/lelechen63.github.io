@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3410463.3414650,
+author = {Gan, Yiming and Qiu, Yuxian and Chen, Lele and Leng, Jingwen and Zhu, Yuhao},
+title = {Low-Latency Proactive Continuous Vision},
+year = {2020},
+isbn = {9781450380751},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3410463.3414650},
+doi = {10.1145/3410463.3414650},
+abstract = {Continuous vision is the cornerstone of a diverse range of intelligent applications found on emerging computing platforms such as autonomous machines and Augmented Reality glasses. A critical issue in today's continuous vision systems is their long end-to-end frame latency, which significantly impacts the system agility and user experience. We find that the long latency is fundamentally caused by the serialized execution model of today's continuous vision pipeline, whose key stages, including sensing, imaging, and vision computations, execute sequentially, leading to long frame latency.This paper seeks to reduce the end-to-end latency of continuous vision tasks. Our key idea is a new proactive vision execution model that breaks the sequential execution of the vision pipeline. Specifically, we propose to allow the pipeline front-end (sensing and imaging) to predict future frames; the pipeline back-end (vision algorithms) then predictively operates on the future frames to reduce frame latency. While the proactive execution model is generally applicable to any vision systems, we demonstrate its effectiveness using an implementation on resource-constrained mobile Systems-on-a-chips (SoC). Our system, PVF, incorporates two techniques to overcome key challenges that arise in deploying proactive vision in mobile systems: it enables multiple outstanding speculative frames by exploiting the hardware heterogeneities in mobile SoCs; it reduces the energy overhead of prediction by exploiting the error-resilient nature of vision algorithms. We show that PVF reduces the frame latency by up to 92% under the same energy.},
+booktitle = {Proceedings of the ACM International Conference on Parallel Architectures and Compilation Techniques},
+pages = {329–342},
+numpages = {14},
+keywords = {proactive execution, continuous vision},
+location = {Virtual Event, GA, USA},
+series = {PACT '20}
+}
